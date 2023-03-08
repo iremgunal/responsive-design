@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li class="ctn"><a  href="#"></a>Contact</li>
+        </ul>
+        <a class="menu-btn"><i class="fas fa-bars"></i></a>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+
+    </header>
+
+    <!-- Events -->
+    <section id="events" class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/7.jpg" style="max-width:500px" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias magnam in aliquam nisi quasi. Quidem inventore veniam quaerat at temporibus?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/11.jpg" style="max-width:500px"  alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias magnam in aliquam nisi quasi. Quidem inventore veniam quaerat at temporibus?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section id="explore" class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi itaque reiciendis laudantium dolor tenetur repellendus nemo totam! Quisquam beatae consequatur doloremque omnis eos. Ea, eveniet fuga assumenda deserunt illo praesentium.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+       
+    </section>
+    <section id="tours" class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorum consequuntur alias similique eaque molestiae error quibusdam delectus nobis aut praesentium sint maiores, assumenda quis pariatur deleniti nostrum? Deleniti, eveniet!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/1.jpg" alt="">
+                    <img src="./img/5.jpg" alt="">
+                    <img src="./img/3.jpg" alt="">
+                    <img src="./img/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem Mah, Lorem Cd.
+            No: 10  Lorem/lorem |            
+            Phone
+            0 511 xxx xx xx |           
+           Email
+            lorem@lorem.com</p>
+            <p>
+                Copyright © 2023 Lorem, ipsum.
+            </p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+
+    </script>
+</body>
+</html>
